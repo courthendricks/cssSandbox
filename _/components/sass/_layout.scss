@@ -1,0 +1,16 @@
+//layout stylesheet is for overall structure and *gasp* layout!
+
+//Susy Setup ---------------------------------------------------
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+@include border-box-sizing;
+
+
+.layout {
+	padding: 3%;
+} //layout
+
+

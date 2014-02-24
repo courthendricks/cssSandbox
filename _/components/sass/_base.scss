@@ -1,8 +1,17 @@
+//base stylesheet is for general, basic styles
+
 @import url("http://fonts.googleapis.com/css?family=Varela+Round");
 
 @import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic');
 
 @import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+
+#{headings()} {
+	font-family: $font-primary;
+}
+//this is an example of a compass selector helper, targeting all headers
+
 
 h1 {
 	font:normal 1.82em $font-primary;
@@ -15,5 +24,5 @@ p {
 }
 
 .fa {
-	margin: 0 .25em;
+	margin-right: .25em;
 }

@@ -1,0 +1,7 @@
+//modules stylesheet is for component or section styles
+
+.kittenSection {
+	@include clearfix;
+	
+}
+//any section with this class & w/floated items will be clearfixed

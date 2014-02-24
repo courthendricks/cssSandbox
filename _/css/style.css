@@ -66,21 +66,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 7, ../components/sass/_base.scss */
+/* line 10, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
+}
+
+/* line 16, ../components/sass/_base.scss */
 h1 {
   font: normal 1.82em "Varela Round", Helvetica, Arial, sans-serif;
   color: #0041ff;
 }
 
-/* line 12, ../components/sass/_base.scss */
+/* line 21, ../components/sass/_base.scss */
 p {
   font: normal 1.125em "Lato", Helvetica, Arial, sans-serif;
   color: red;
 }
 
-/* line 17, ../components/sass/_base.scss */
+/* line 26, ../components/sass/_base.scss */
 .fa {
-  margin: 0 .25em;
+  margin-right: .25em;
+}
+
+/* line 14, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, ../components/sass/_layout.scss */
+.layout {
+  padding: 3%;
+}
+
+/* line 3, ../components/sass/_modules.scss */
+.kittenSection {
+  overflow: hidden;
+  *zoom: 1;
 }
 
 /* line 13, ../components/sass/style.scss */
