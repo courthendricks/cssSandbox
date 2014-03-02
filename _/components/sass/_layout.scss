@@ -9,8 +9,56 @@ $grid-padding: $gutter-width;
 @include border-box-sizing;
 
 
-.layout {
-	padding: 3%;
-} //layout
 
+//Breakpoints ---------------------------------------------------
+
+@mixin breakpoint($point) {
+
+  @if $point == papa-bear {
+    @media only screen and (max-width: 1600px) { @content; }
+  }
+    @else if $point == uncle-bear {
+    @media only screen and (max-width: 960px)  { @content; }
+  }  
+    @else if $point == mama-bear {
+    @media only screen and (max-width: 900px)  { @content; }
+  }
+    @else if $point == teen-bear {
+    @media only screen and (max-width: 860px)  { @content; }
+  }
+  	@else if $point == baby-bear {
+    @media only screen and (max-width: 500px)  { @content; }
+  }
+}
+
+
+//General Layout ---------------------------------------------------
+
+//Header 
+
+header {
+	@include background (image-url('header.jpg'));
+}
+//Navigation
+nav {
+
+
+	@include breakpoint (baby-bear){
+		@include horizontal-list;
+	}
+} 
+
+//Content
+.content { //layout is applied to containers w/content living within the grid
+	@include container;
+	padding: 3%;
+	
+	.primary {
+		margin-top: .2em;
+		@include at-breakpoint(8,12){
+			
+		}
+	}
+	
+} //content
 
