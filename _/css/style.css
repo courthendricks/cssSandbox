@@ -98,10 +98,11 @@ p {
 /* line 39, ../components/sass/_layout.scss */
 header {
   background: url('../../images/header.jpg');
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 500px) {
-  /* line 43, ../components/sass/_layout.scss */
+  /* line 45, ../components/sass/_layout.scss */
   nav {
     margin: 0;
     padding: 0;
@@ -134,7 +135,7 @@ header {
   }
 }
 
-/* line 52, ../components/sass/_layout.scss */
+/* line 54, ../components/sass/_layout.scss */
 .content {
   *zoom: 1;
   max-width: 61em;
@@ -151,7 +152,7 @@ header {
   display: table;
   clear: both;
 }
-/* line 56, ../components/sass/_layout.scss */
+/* line 58, ../components/sass/_layout.scss */
 .content .primary {
   margin-top: .2em;
 }

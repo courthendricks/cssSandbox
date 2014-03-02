@@ -9,7 +9,6 @@ $grid-padding: $gutter-width;
 @include border-box-sizing;
 
 
-
 //Breakpoints ---------------------------------------------------
 
 @mixin breakpoint($point) {
@@ -32,13 +31,16 @@ $grid-padding: $gutter-width;
 }
 
 
+
 //General Layout ---------------------------------------------------
 
 //Header 
 
 header {
 	@include background (image-url('header.jpg'));
+	margin: 0 auto;
 }
+
 //Navigation
 nav {
 
